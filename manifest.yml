@@ -1,0 +1,12 @@
+applications:
+- services:
+  - testnodejsapp-MonitoringAndAnalytics
+  - Cloudant NoSQL DB-q8
+  disk_quota: 1024M
+  buildpack: php_buildpack
+  host: test-for-php
+  name: test-for-php
+  path: .
+  domain: mybluemix.net
+  instances: 1
+  memory: 128M
